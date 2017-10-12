@@ -1,0 +1,28 @@
+.maplot_xaxis path,
+.maplot_xaxis line,
+.maplot_yaxis path,
+.maplot_yaxis line {
+  fill: none;
+  stroke: #BFBFBF;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+#maplot_info_table { display: block; }
+#maplot_info_table tbody {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#maplot_info_table td { text-align: center; }
+#maplot_info_table tr:hover { background: #D6D6D6; }
+#maplot_info_table th { border-bottom: 1px solid #333333; }
+#maplot_info_table th:nth-of-type(1), 
+#maplot_info_table td:nth-of-type(1) { width: 25px; }
+#maplot_info_table th:nth-of-type(2), 
+#maplot_info_table td:nth-of-type(2) { width: 145px; }
+#maplot_info_table th:nth-of-type(3), 
+#maplot_info_table td:nth-of-type(3) { width: 45px; }
+#maplot_info_table th:nth-of-type(4), 
+#maplot_info_table td:nth-of-type(4) { width: 45px; }
+#maplot_info_table th:last-child { width: 70px; }
+#maplot_info_table td:last-child { width: 70px;  }
