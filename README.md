@@ -5,6 +5,7 @@
 - cd directory
 - npm install
 - node bin/www
+- http://192.168.191.159:8000
 
 ### data
 - cd public/datas
