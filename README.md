@@ -12,6 +12,7 @@
 ### data
 - cd public/datas
 - input data
+- 단 현재 파일명은 'maplot.json' 으로 해야 한다.
 - data format:
 	ex) 
 	{
