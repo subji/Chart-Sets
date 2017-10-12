@@ -1,6 +1,8 @@
 # MA Plot
 ### installation & run
 
+먼저 git 과 node & npm 이 설치되어 있어야 한다.
+
 - git clone https://github.com/subji/Chart-Sets.git 
 - cd directory
 - npm install
