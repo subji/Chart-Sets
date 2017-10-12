@@ -1,5 +1,4 @@
-# Chart-Sets
-
+# MA Plot
 ### installation & run
 
 - git clone https://github.com/subji/Chart-Sets.git 
