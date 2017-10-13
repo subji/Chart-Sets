@@ -6,8 +6,8 @@ var path = require('path');
 /* GET home page. */
 router.get('/maplot', function(req, res, next) {
 	var data = null;
-
-  fs.readFile('/data/public/node/ercsbplot/public/datas/maplot.json', 'utf8', function (err, d)	{
+  var dataURL = process.cwd() + '/public/datas/maplot.json';
+  fs.readFile(dataURL, 'utf8', function (err, d)	{
   	res.json(JSON.parse(d));
   });
 });
