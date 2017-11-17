@@ -8,7 +8,7 @@
 - 커맨드 라인에서 node bin/www or npm install -g nodemon 후 nodemon bin/www 실행
 - 실행 후 웹 페이지에서 http://localhost:3000 실행
 
-### data
+### 데이터 입력 및 포맷
 - public/datas 디렉토리에 'maplot.json' 이름으로 데이터를 넣는다.
 - data format 은 다음과 같다.
 	```
