@@ -1,21 +1,17 @@
 # MA Plot
-### installation & run
-
-먼저 git 과 nodejs & npm 이 설치되어 있어야 한다.
-
+### 설치 및 실행
+- git 설치
+- nodeJS 설치
 - git clone https://github.com/subji/maplot-for-bio.git
-- cd directory
-- npm install
-- node bin/www or npm install -g nodemon 후 nodemon bin/www 실행
-- http://localhost:3000 <- 3000 은 
-	bin 안에 www 에서 8000 을 3000 으로 변경하면 된다.
+- git 에서 복사한 디렉토리로 이동
+- 커맨드 라인에서 npm install 실행
+- 커맨드 라인에서 node bin/www or npm install -g nodemon 후 nodemon bin/www 실행
+- 실행 후 웹 페이지에서 http://localhost:3000 실행
 
 ### data
-- cd public/datas
-- input data
-- 단 현재 파일명은 'maplot.json' 으로 해야 한다.
-- data format:
-	ex) 
+- public/datas 디렉토리에 'maplot.json' 이름으로 데이터를 넣는다.
+- data format 은 다음과 같다.
+	```
 	{
 		data: {
 			cutoff_value: 0.01,
@@ -30,5 +26,6 @@
 			]
 		}
 	}
+	```
 
 
